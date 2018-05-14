@@ -48,24 +48,17 @@ var bio = {
 var work = {
     "jobs": [{
             "employer": "AppDirect",
-            "title": "Senior Engineer",
+            "title": "Senior Test Engineer",
             "dates": "Feb 2015 to present",
             "location": "Sunnyvale, CA",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac ornare quam. Nunc eros nunc, convallis tempor eros at, facilisis finibus magna. Curabitur finibus elementum leo, in vulputate libero efficitur ut. Ut in lacus metus. Aliquam vitae justo id est aliquam vehicula. Nam rhoncus ornare nisl in dapibus. Vivamus eget commodo quam. Ut non turpis ante. Cras dictum ex et risus scelerisque tempus. Ut dapibus eros sit amet mi commodo, id tristique nulla dignissim."
         },
         {
             "employer": "Citrix",
-            "title": "Engineer",
+            "title": "Software Engineer in Test",
             "dates": "July 2012 to Feb 2015",
             "location": "Fort Lauderdale,FL",
             "description": "Donec in nisl eu mi interdum aliquam. Suspendisse justo tellus, lobortis eget nulla vel, varius dapibus nisi. Maecenas imperdiet elit molestie nulla luctus efficitur. Proin id quam eget enim tempus lobortis. Nulla faucibus, diam quis ultricies lacinia, sapien odio malesuada lorem, ut mattis magna odio nec justo. "
-        },
-        {
-            "employer": "Sumtotal",
-            "title": "Junior Engineer",
-            "dates": "July 2011 to June 2012",
-            "location": "Syracuse, NY",
-            "description": "Nullam sed est finibus, tincidunt nibh id, molestie magna. Etiam tempus fermentum nulla non tincidunt. Aenean iaculis eros placerat nulla ultricies, ut dapibus tellus imperdiet. Mauris sed feugiat diam. Nullam nulla arcu, fermentum at rutrum nec, ultricies sed orci. Cras sed ligula eros."
         }
     ],
     "display": function() {
@@ -87,15 +80,15 @@ var work = {
 //Projects Section Starts here
 var projects = {
     "projects": [{
-            "title": "Library Management System",
-            "dates": "Feb 2015",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac ornare quam. Nunc eros nunc, convallis tempor eros at, facilisis finibus magna. Curabitur finibus elementum leo, in vulputate libero efficitur ut. Ut in lacus metus.",
+            "title": "Neighborhood Map",
+            "dates": "Dec 2017",
+            "description": "A single page application featuring the tourist attractions of the city of San Francisco. The app makes function calls to Google Maps and other location-based services like Foursquare.The app is responsive and resizes using CSS Flexbox and media queries.The app is hosted at https://mmenghnani.github.io/Neighborhood/",
             "images": ["https://goo.gl/a2yj7s", "https://goo.gl/a2yj7s", "https://goo.gl/a2yj7s"]
         },
         {
-            "title": "File Transactions in the Cloud",
-            "dates": "Present",
-            "description": "Nullam sed est finibus, tincidunt nibh id, molestie magna. Etiam tempus fermentum nulla non tincidunt. Aenean iaculis eros placerat nulla ultricies, ut dapibus tellus imperdiet. Mauris sed feugiat diam. Nullam nulla arcu, fermentum at rutrum nec, ultricies sed orci.",
+            "title": "Arcade Game Frogger Clone",
+            "dates": "October 2017",
+            "description": "The goal is to create a classic arcade frogger game using the newly acquired skills in Object 	Oriented JS and HTML5 Canvas. Images and a game loop engine are provided. The rest should be built in app.js file. The app is hosted at https://mmenghnani.github.io/Arcade-Game/ ",
             "images": ["https://goo.gl/a2yj7s", "https://goo.gl/a2yj7s", "https://goo.gl/a2yj7s", "https://goo.gl/a2yj7s"]
         }
     ],
@@ -120,7 +113,7 @@ var education = {
             "name": "University of Florida",
             "location": "Gainesville",
             "degree": "Masters in Computer Science",
-            "majors": ["Computer Science", "Electronics"],
+            "majors": ["Computer Science"],
             "dates": "May 2012"
         },
         {
@@ -131,16 +124,11 @@ var education = {
             "dates": "August 2006 to May 2010"
         }
     ],
-    "onlineCourses": [{
-            "title": "Java Programming",
-            "school": "University of Michigan",
-            "dates": "July 2015",
-            "url": "https://www.umichigan.edu"
-        },
+    "onlineCourses": [
         {
             "title": "FrontEnd Nanodegree",
             "school": "Udacity",
-            "dates": "December 2017",
+            "dates": "Feb 2017",
             "url": "https://www.udacity.com"
         }
     ],

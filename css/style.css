@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: white;
   line-height: 48px;
   display: inline;
 }
@@ -109,7 +109,7 @@ a {
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: white;
 }
 
 .white-text {
@@ -129,7 +129,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #808080;
+  background-color : #5f7d8e;
 }
 
 .flex-box {
@@ -140,6 +140,8 @@ a {
   justify-content: space-around;
   padding: 10px;
 }
+
+#f3f3f3
 
 .flex-column {
   display: flex;
