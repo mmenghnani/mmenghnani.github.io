@@ -1,0 +1,28 @@
+/*---------------------------------------------------*/
+/* Services
+/*---------------------------------------------------*/
+.services{
+    background-color:#f7f7f7;
+    .box-service{
+        text-align:center;
+        background-color:#fff;
+        padding: 30px;
+		margin-bottom:20px;
+        @include shadow;
+        i{
+		    @include fa;
+            font-size: 30px;
+            width: 70px;
+            height: 70px;
+            padding: 20px 15px 15px 15px;
+        }
+	    h4{
+			margin-bottom:10px;
+			font-size:20px;
+            font-weight: 600;
+	    }
+	    p{
+		   color:#777777;
+		}
+    }
+}

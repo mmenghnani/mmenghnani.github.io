@@ -1,0 +1,77 @@
+/*---------------------------------------------------*/
+/* home
+/*---------------------------------------------------*/
+.home {
+    text-align: center;
+    color:#fff;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
+	height:700px;
+    .overly{
+	    background-color:rgba(0,0,0,0.7);
+	    height:700px;	
+	}
+    .intro-text { 
+        .name ,.typed{
+		    margin-top:20px;
+            margin-bottom:20px;
+		    line-height: 1.3;
+			text-shadow: 1px 1px 1px #000;
+			font-weight:700;
+		}	
+        .name {
+            font-size:70px;
+            letter-spacing:1px;
+        }
+        .typed { 
+            font-size:50px;
+            color:$color;
+        }
+	    .social-link{
+	        margin:0 5px 30px ;
+	        i{
+			    @include fa;
+			    font-size: 17px;
+	            margin:2px;
+                padding:10px;
+                width:40px;
+                height:40px;
+                border:2px solid $color;
+	            &:hover{
+                    background-color:transparent;
+                }
+	        }
+	    }
+    }
+}
+@media(max-width:767px) {
+    .home {
+        .intro-text {
+            .name {
+                font-size: 60px; 
+		        margin-top:10px;
+		        margin-bottom:10px;
+            }
+            .typed {
+                font-size:40px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .home {
+        .intro-text {
+            .name {
+                font-size: 50px; 
+            }
+            .typed {
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/*---------------------------------------------------*/
+/* Counter
+/*---------------------------------------------------*/
+.counter{
+	background-color:#f7f7f7; 
+    .counter-box{
+	    margin-bottom:20px;
+		text-align:center;
+	    i{ 
+		    @include fa;
+            font-size:30px;
+            width:60px;
+	        height:60px;
+			padding-top:15px;
+        }
+        .numbre{
+	        font-weight:700;
+            font-size:50px;
+            margin-top: 10px;
+        }
+    } 
+} 

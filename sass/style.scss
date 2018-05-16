@@ -1,0 +1,33 @@
+/*
+    Template Name: New
+    Version: 1.0
+    ----------------
+    Table of Content
+    ----------------
+    1.global
+	2.preloader
+	3.navbar
+	4.home
+	5.About
+	6.services
+	7.work
+	8.counter
+	9.blog
+	10.Contact
+	11.footer
+*/
+
+$color:#7e6df6;
+$font-family:'Montserrat', sans-serif;
+
+@import "global.scss";
+@import "preloader.scss";
+@import "navbar.scss";
+@import "home.scss";
+@import "about.scss";
+@import "services.scss";
+@import "counter.scss";
+@import "work.scss";
+@import "blog.scss";
+@import "contact.scss";
+@import "footer.scss";

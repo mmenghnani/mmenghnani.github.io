@@ -1,0 +1,63 @@
+
+.text-color {
+  color: #28ABE3;
+}
+.header .navbar .navbar-nav li.active a {
+  color: #28ABE3 !important;
+}
+.header .navbar .navbar-toggle {
+  background-color: #28ABE3;
+}
+
+.header .navbar.navbar-shrink .navbar-brand {
+  color: #28ABE3;
+}
+.home .intro-text .typed {
+  color: #28ABE3;
+}
+.home .intro-text .social-link i {
+  background-color: #28ABE3;
+  border: 2px solid #28ABE3;
+}
+.home .intro-text .scroll-down i {
+  color: #28ABE3;
+}
+.about .text a {
+  background-color: #28ABE3;
+  border: 2px solid #28ABE3;
+}
+.about .text a:hover {
+  color: #28ABE3;
+}
+.services .box-service i {
+    background-color: #28ABE3;
+}
+.counter .counter-box i {
+  background-color: #28ABE3;
+}
+.work ul.work-filter li.active {
+  background-color: #28ABE3;
+}
+.work .box-work .hover {
+  background-color: #28ABE3;
+}
+.blog .blog-box .content .button {
+  background-color: #28ABE3;
+  border: 2px solid #28ABE3;
+}
+.blog .blog-box .content .button:hover {
+  color: #28ABE3;
+}
+.contact i, .contact .social-link i {
+   background-color: #28ABE3; 
+}
+.contact .social-link i {
+  border: 2px solid #28ABE3;
+}
+.contact .social-link i:hover {
+  color: #28ABE3;
+}
+.footer .back-to-top {
+  background-color: #28ABE3;
+}
+

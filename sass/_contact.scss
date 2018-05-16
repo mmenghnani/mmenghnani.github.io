@@ -1,0 +1,39 @@
+/*---------------------------------------------------*/
+/* Contact
+/*---------------------------------------------------*/
+    .contact{
+        background-color: #353535;
+        color:#FFF;
+        text-align:center;
+	    i{
+		    @include fa;
+            font-size:20px;
+            width:50px;
+	        height:50px;
+	        padding-top:15px;
+		    padding-left:2px;
+		    margin-bottom:20px;		
+        }
+	   .social-link {
+	        margin-top:30px;
+	        i{
+	            @extend i;
+		        border-radius:0;
+                width:40px;
+	            height:40px;
+		        padding-top:10px;
+		        border:2px solid $color;
+		        &:hover{
+                    background-color:transparent;
+			        color:$color;
+                }
+            }
+	    }
+        a{
+            color:#fff;
+        }
+    }
+
+
+
+

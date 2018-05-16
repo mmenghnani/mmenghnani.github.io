@@ -1,0 +1,53 @@
+/*---------------------------------------------------*/
+/* Preloader   
+/*---------------------------------------------------*/
+
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999999999999;
+        .load-circle {
+            margin: 50vh auto;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #ddd;
+            border-top: 3px solid #353535;
+           -webkit-animation: rotate 1.2s infinite linear;
+            animation: rotate 1.2s infinite linear;
+        }
+}
+
+@-webkit-keyframes rotate {
+  0%{
+    -webkit-transform:rotate(0deg) ;
+	-ms-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform:rotate(360deg) ;
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0%{
+    -webkit-transform:rotate(0deg) ;
+	-ms-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform:rotate(360deg) ;
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

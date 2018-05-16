@@ -1,0 +1,25 @@
+/*---------------------------------------------------*/
+/* About
+/*---------------------------------------------------*/
+.about{
+   .hero{ 
+        @include shadow;
+		 margin-top:5px ;
+    }
+    .text {
+	font-family: $font-family;
+	    .btnn{
+            margin-top:20px ;
+        }
+        a{	
+            @include button;
+	    }
+	}
+}
+@media (max-width:767px) {
+    .about{
+		.text{
+		    margin-top:20px ;
+        }
+    }
+}

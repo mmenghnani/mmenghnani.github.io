@@ -1,0 +1,63 @@
+
+.text-color {
+  color: #E91E63;
+}
+.header .navbar .navbar-nav li.active a {
+  color: #E91E63 !important;
+}
+.header .navbar .navbar-toggle {
+  background-color: #E91E63;
+}
+
+.header .navbar.navbar-shrink .navbar-brand {
+  color: #E91E63;
+}
+.home .intro-text .typed {
+  color: #E91E63;
+}
+.home .intro-text .social-link i {
+  background-color: #E91E63;
+  border: 2px solid #E91E63;
+}
+.home .intro-text .scroll-down i {
+  color: #E91E63;
+}
+.about .text a {
+  background-color: #E91E63;
+  border: 2px solid #E91E63;
+}
+.about .text a:hover {
+  color: #E91E63;
+}
+.services .box-service i {
+    background-color: #E91E63;
+}
+.counter .counter-box i {
+  background-color: #E91E63;
+}
+.work ul.work-filter li.active {
+  background-color: #E91E63;
+}
+.work .box-work .hover {
+  background-color: #E91E63;
+}
+.blog .blog-box .content .button {
+  background-color: #E91E63;
+  border: 2px solid #E91E63;
+}
+.blog .blog-box .content .button:hover {
+  color: #E91E63;
+}
+.contact i, .contact .social-link i {
+   background-color: #E91E63; 
+}
+.contact .social-link i {
+  border: 2px solid #E91E63;
+}
+.contact .social-link i:hover {
+  color: #E91E63;
+}
+.footer .back-to-top {
+  background-color: #E91E63;
+}
+

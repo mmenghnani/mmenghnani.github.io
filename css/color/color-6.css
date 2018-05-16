@@ -1,0 +1,63 @@
+
+.text-color {
+  color: #FF5722;
+}
+.header .navbar .navbar-nav li.active a {
+  color: #FF5722 !important;
+}
+.header .navbar .navbar-toggle {
+  background-color: #FF5722;
+}
+
+.header .navbar.navbar-shrink .navbar-brand {
+  color: #FF5722;
+}
+.home .intro-text .typed {
+  color: #FF5722;
+}
+.home .intro-text .social-link i {
+  background-color: #FF5722;
+  border: 2px solid #FF5722;
+}
+.home .intro-text .scroll-down i {
+  color: #FF5722;
+}
+.about .text a {
+  background-color: #FF5722;
+  border: 2px solid #FF5722;
+}
+.about .text a:hover {
+  color: #FF5722;
+}
+.services .box-service i {
+    background-color: #FF5722;
+}
+.counter .counter-box i {
+  background-color: #FF5722;
+}
+.work ul.work-filter li.active {
+  background-color: #FF5722;
+}
+.work .box-work .hover {
+  background-color: #FF5722;
+}
+.blog .blog-box .content .button {
+  background-color: #FF5722;
+  border: 2px solid #FF5722;
+}
+.blog .blog-box .content .button:hover {
+  color: #FF5722;
+}
+.contact i, .contact .social-link i {
+   background-color: #FF5722; 
+}
+.contact .social-link i {
+  border: 2px solid #FF5722;
+}
+.contact .social-link i:hover {
+  color: #FF5722;
+}
+.footer .back-to-top {
+  background-color: #FF5722;
+}
+

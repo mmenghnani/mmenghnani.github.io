@@ -1,0 +1,68 @@
+p,h1{
+
+}
+.text-color {
+  color: #111;
+   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff ;
+}
+.header .navbar .navbar-nav li.active a {
+  color: #111 !important;
+}
+.header .navbar .navbar-toggle {
+  background-color: #111;
+}
+
+.header .navbar.navbar-shrink .navbar-brand {
+  color: #111;
+}
+.home .intro-text .typed {
+  color: #111;
+   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff ;
+}
+.home .intro-text .social-link i {
+  background-color: #111;
+  border: 2px solid #fff;
+}
+.home .intro-text .scroll-down i {
+  color: #111;
+}
+.about .text a {
+  background-color: #111;
+  border: 2px solid #111;
+}
+.about .text a:hover {
+  color: #111;
+}
+.services .box-service i {
+    background-color: #111;
+}
+.counter .counter-box i {
+  background-color: #111;
+}
+.work ul.work-filter li.active {
+  background-color: #111;
+}
+.work .box-work .hover {
+  background-color: #111;
+}
+.blog .blog-box .content .button {
+  background-color: #111;
+  border: 2px solid #111;
+}
+.blog .blog-box .content .button:hover {
+  color: #111;
+}
+.contact i, .contact .social-link i {
+   background-color: #111;
+border: 1px solid #fff;   
+}
+.contact .social-link i {
+  border: 2px solid #fff;
+}
+.contact .social-link i:hover {
+  color: #111;
+}
+.footer .back-to-top {
+  background-color: #111;
+}
+
