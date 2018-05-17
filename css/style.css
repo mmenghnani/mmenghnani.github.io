@@ -652,3 +652,30 @@ a.active, a:active, a:focus, a:hover {
 .footer .back-to-top i {
   font-size: 20px;
 }
+
+
+.quote-box {
+  background-color:white;
+  border-radius:6px;
+  font-family: 'Lato', sans-serif;
+  margin:20px auto;
+  padding:25px;
+  width:45%;
+}
+
+.quoteButton {
+  background-color:black;
+  border-radius:6px;
+  border:none;
+  color:white;
+  font-size:16px;
+  margin:6px;
+  padding:10px 16px;
+  outline-color:gray;
+}
+
+@media (max-width: 750px) {
+  .quote-box {
+    width:80%;
+  }
+}
