@@ -360,6 +360,7 @@ a.active, a:active, a:focus, a:hover {
 
 .services .box-service p {
   color: #777777;
+  height : 60px;
 }
 
 /*---------------------------------------------------*/
