@@ -197,6 +197,11 @@ a.active, a:active, a:focus, a:hover {
   color: #7e6df6;
 }
 
+.sayHello:hover{
+  background-color : green;
+  color : whitesmoke
+}
+
 @media (max-width: 767px) {
   .header .navbar .navbar-nav {
     margin: 0 -15px;
